@@ -13,3 +13,28 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Signing configs
+*.jks
+*.keystore
+
+# Environment variables
+.env
+.env.local
+
+# OS
+Thumbs.db
+
+# IDE
+*.iws
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Build outputs
+app/build/
+*/build/
+
+# Generated files
+#/app/src/main/AndroidManifest.xml (si lo generas)
